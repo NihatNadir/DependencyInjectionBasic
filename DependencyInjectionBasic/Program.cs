@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ITeacher, Teacher>(); // Yaşam döngüsü
+builder.Services.AddScoped<ITeacher, Teacher>(); // Dependency Injection
 
 var app = builder.Build();
 
