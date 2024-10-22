@@ -2,23 +2,23 @@
 
 #### TeacherSınıfı
 
-###### Özellikler:
+##### Özellikler:
 
 - FirstName: string
 
 - LastName: string
 
-###### Metotlar:
+##### Metotlar:
 
 - GetInfo(): Öğretmenin adını ve soyadını döndüren bir metot.
 
 #### ClassRoom Sınıfı
 
-###### Özellikler:
+##### Özellikler:
 
 - Teacher: Ogretmen türünde bir nesne
 
-###### Metotlar:
+##### Metotlar:
 
 - GetTeacherInfo(): Öğretmenin bilgilerini döndüren bir metot. Teacher içerisindeki GetInfo()'yu çağırması yeterli.
 
